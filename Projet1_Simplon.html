@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Page web personnelle</title>
+    <style>
+        /* body{
+            background-color: black;
+            color: black;
+        } */
+            
+        section{
+            margin-left: 10px;
+        }
+        body{
+        background: linear-gradient(90deg,beige 3%, brown 97%);
+        }
+        h2,h4{
+            text-shadow: 6px 8px 10px rgba(88, 84, 84, 0.5);
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px; 
+        }
+        .sec1{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 100px;
+            margin-left: 100px;margin-right: 100px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            background-color: rgb(255, 238, 215);
+            padding: 20px;
+            border-radius: 30px;
+            border-left: 2px solid gray;border-top: 2px solid gray;
+            box-shadow: 6px 8px 10px rgba(88, 84, 84, 0.5);
+            position: relative;
+            z-index:10;
+        }
+            /* .block_flur{
+                background-color: white;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                border-radius: 30px;
+                filter: blur(1.5rem);
+                z-index:1;
+
+            } */
+        /* .name{
+            padding-left:10px;
+        } */
+        .sec1,.sec2{
+            transition: 0.5s;
+        }
+        .sec1:hover{
+            transform: scale(1.05);
+        }
+        .pict_perso{
+            border-radius: 80px;
+            box-shadow: none;
+
+        }
+        .sec1_case1{
+            padding-top: 15px;  
+            padding-right: 15px; 
+            margin-left: 20px;      
+        }
+        .sec1_case2{
+            padding-top: 30px;
+        }
+        .sec2{
+        margin-left: 100px;margin-right: 100px;
+        /* margin-top: 30px; */
+        margin-bottom: 30px;
+        margin-top: 15px;
+        background-color: rgb(255, 233, 206);
+        padding: 20px;
+        border-radius: 30px;
+        border-left: 2px solid gray;border-top: 2px solid gray;
+        padding: 30px 30px;
+
+
+        box-shadow: 6px 8px 10px rgba(88, 84, 84, 0.5)
+        }
+        .sec2:hover{
+            transform: scale(1.05);
+        }
+
+        img{
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h2>À propos de moi</h2>
+        <section class="sec1">
+            <div class="sec1_case1">
+                <div>
+                    <img  src="pict.png" alt="Photo de profil" class="pict_perso">
+                </div>
+                <!-- <div class="name"><p>Aquilas Aaron Junior LOBO</p></div> -->
+            </div>
+            <div class="sec1_case2">
+                <p>Je suis <b>LOBO Aquilas Aaron Junior</b>, titulaire d'un Baccalauréat Scientifique, ce parcour au lycée m'a permis d'aiguiser <b>ma curiosité</b>, mon sens du dévouement ainsi que <b>mes réflexes autodidactes</b>.</p>
+                <p>Portant un <b>intérêt</b> particulier aux innovations faites dans le domaine informatique notamment avec <b>les LLMs</b>, l'apparition de L'<b>Intelligence Artificielle</b> dans de nombreux système, j'ai opté pour une orientation vers un établissement formant aux Sciences du Numériques.</p>
+                <p>Je continue donc mon cursus académique à l'Université Virtuelle de Côte d'Ivoire dans une filière m'apprenant l'importance d'avoir une culture sur la Sécurité Numérique en vue de produire des solutions web sûres et fiables.</p>
+                
+            </div>
+            <div class="block_flur">
+                </div>
+        </section>
+        <h2>Ma passion</h2>
+        <section class="sec2">
+            <div class="sec2_case1">
+                <p>La limite existant entre intérêt et passion étant  mince, les notions acquises durant ces années mes anées d'études supérieur on fait naître une envie d'en <b>apprendre davantage</b> dans les secteurs comme <b>le Developpement</b> et <b>la Cybersécurité</b>.</p>
+                <h3 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">Pourquoi ces secteurs en particulier?</h3>
+                <p>D'une part, le </b>développement</b> implique <b>création</b> de solution cohérente et attrayante, <b>innovation</b> transformant les idées en réalités et se positionne même comme un <b>pilier</b> dans les innovations actuelles de la tech et la <b>Cybersécurité</b> quant à elle, permet de <b>protéger</b> les systèmes et solutions développées contre les accès non autorisés.</p>
+                <p>Etant deux domaines <b>complémentaires</b> et en plein essor, acquérir des compétences solides dans ceux-ci permet d'avoir une <b></b>vision complète du fonctionnement des outils les plus utilisés en l'informatique et faire partie de l'élite du secteur</p>
+            </div>
+        </section>
+    </main>
+    <p>mise à jour</p>
+</body>
+</html>
