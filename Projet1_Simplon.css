@@ -26,6 +26,27 @@
             box-shadow: 6px 8px 10px rgba(88, 84, 84, 0.4 );
             position: relative;
         }
+@keyframes slideInFromLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInFromRight {
+            from {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
         .sec1,.sec2{
             transition: 0.5s;
         }
@@ -102,3 +123,4 @@
         padding-right: 20px;
        }
        }
+
