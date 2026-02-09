@@ -1,4 +1,4 @@
-        section{
+ section{
             margin-left: 10px;
         }
         body{
@@ -25,7 +25,9 @@
             border-left: 2px solid gray;border-top: 2px solid gray;
             box-shadow: 6px 8px 10px rgba(88, 84, 84, 0.4 );
             position: relative;
+            
         }
+        /* Animations de chargement */
         @keyframes slideInFromLeft {
             from {
                 opacity: 0;
@@ -47,6 +49,15 @@
                 transform: translateX(0);
             }
         }
+
+        .sec1 {
+            animation: slideInFromLeft 0.8s ease-out forwards;
+        }
+
+        .sec2 {
+            animation: slideInFromRight 0.8s ease-out 0.3s forwards;
+        }
+
         .sec1,.sec2{
             transition: 0.5s;
         }
@@ -123,5 +134,3 @@
         padding-right: 20px;
        }
        }
-
-

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page web personnelle</title>
+
+    <link rel="stylesheet" href="Projet1_Simplon.css"> 
+
+</head>
+<body>
+    <main>
+        <h2>À propos de moi</h2>
+        <section class="sec1">
+            <div class="sec1_case1">
+                <div>
+                    <img  src="pict.png" alt="Photo de profil" class="pict_perso">
+                </div>
+                <!-- <div class="name"><p>Aquilas Aaron Junior LOBO</p></div> -->
+            </div>
+            <div class="sec1_case2">
+                <p>Je suis <b>LOBO Aquilas Aaron Junior</b>, titulaire d'un Baccalauréat Scientifique, ce parcour au lycée m'a permis d'aiguiser <b>ma curiosité</b>, mon sens du dévouement ainsi que <b>mes réflexes autodidactes</b>.</p>
+                <p>Portant un <b>intérêt</b> particulier aux innovations faites dans le domaine informatique notamment avec <b>les LLMs</b>, l'apparition de L'<b>Intelligence Artificielle</b> dans de nombreux système, j'ai opté pour une orientation vers un établissement formant aux Sciences du Numériques.</p>
+                <p>Je continue donc mon cursus académique à l'Université Virtuelle de Côte d'Ivoire dans une filière m'apprenant l'importance d'avoir une culture sur la Sécurité Numérique en vue de produire des solutions web sûres et fiables.</p>
+                
+            </div>
+        </section>
+        <h2>Ma passion</h2>
+        <section class="sec2">
+            <div class="sec2_case1">
+                <p>La limite existant entre intérêt et passion étant  mince, les notions acquises durant ces années mes anées d'études supérieur on fait naître une envie d'en <b>apprendre davantage</b> dans les secteurs comme <b>le Developpement</b> et <b>la Cybersécurité</b>.</p>
+                <h3 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">Pourquoi ces secteurs en particulier?</h3>
+                <p>D'une part, le </b>développement</b> implique <b>création</b> de solution cohérente et attrayante, <b>innovation</b> transformant les idées en réalités et se positionne même comme un <b>pilier</b> dans les innovations actuelles de la tech et la <b>Cybersécurité</b> quant à elle, permet de <b>protéger</b> les systèmes et solutions développées contre les accès non autorisés.</p>
+                <p>Etant deux domaines <b>complémentaires</b> et en plein essor, acquérir des compétences solides dans ceux-ci permet d'avoir une <b></b>vision complète du fonctionnement des outils les plus utilisés en l'informatique et faire partie de l'élite du secteur</p>
+            </div>
+        </section>
+        <div class="btn"><button> greatting</button>
+        <span id="txt"></span>
+        <script>
+            const btn = document.querySelector("button");
+            const texte = document.querySelector("#txt");
+            btn.addEventListener("click", () => {
+            if (texte.innerHTML === "") {
+                texte.innerHTML = "Merci pour la lecture attentive";
+            } else {
+                texte.innerHTML = "";
+            }
+            });
+
+        </script>
+    </main>
+</body>
+</html>
