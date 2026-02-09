@@ -26,7 +26,7 @@
             box-shadow: 6px 8px 10px rgba(88, 84, 84, 0.4 );
             position: relative;
         }
-@keyframes slideInFromLeft {
+        @keyframes slideInFromLeft {
             from {
                 opacity: 0;
                 transform: translateX(-100px);
@@ -123,4 +123,5 @@
         padding-right: 20px;
        }
        }
+
 
